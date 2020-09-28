@@ -8,9 +8,8 @@ You can join my Discord community here https://discord.gg/TjF6QDC to talk with o
 ### Projects
 You can visit the Fluxpoint Development website here https://fluxpoint.dev for the latest projects i have made.
 
-#### Discord bots
+#### Projects
 - [Waifu](https://fluxpoint.dev/waifu) | [Hangman](https://fluxpoint.dev/hangman) | [Emoji Generator](https://fluxpoint.dev/emojigenerator) | [Starboat](https://fluxpoint.dev/starboat) | [Minecraft](https://fluxpoint.dev/minecraft)
 
-#### MultiRPC
-Discord rich presence manager app for custom status with support for multiple profiles and theme editor.
-https://github.com/FluxpointDev/MultiRPC 
+![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=FluxpointDev&repo=MultiRPC)
+![xXBuilderBXx's github stats](https://github-readme-stats.vercel.app/api?username=xXBuilderBXx&show_icons=true&theme=radical&include_all_commits=true)
