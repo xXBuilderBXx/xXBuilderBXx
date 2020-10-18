@@ -11,5 +11,5 @@ You can visit the Fluxpoint Development website here https://fluxpoint.dev for t
 #### Projects
 - [Waifu](https://fluxpoint.dev/waifu) | [Hangman](https://fluxpoint.dev/hangman) | [Emoji Generator](https://fluxpoint.dev/emojigenerator) | [Starboat](https://fluxpoint.dev/starboat) | [Minecraft](https://fluxpoint.dev/minecraft)
 
-![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=FluxpointDev&repo=MultiRPC)
-![xXBuilderBXx's github stats](https://github-readme-stats.vercel.app/api?username=xXBuilderBXx&show_icons=true&theme=radical&include_all_commits=true)
+[![MultiRPC Card](https://github-readme-stats.vercel.app/api/pin/?username=FluxpointDev&repo=MultiRPC)](https://github.com/FluxpointDev/MultiRPC)
+[![xXBuilderBXx's github stats](https://github-readme-stats.vercel.app/api?username=xXBuilderBXx&show_icons=true&theme=radical&include_all_commits=true)](https://github.com/xXBuilderBXx?tab=repositories)
