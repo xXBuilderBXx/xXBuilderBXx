@@ -17,3 +17,5 @@ You can visit the Fluxpoint Development website here https://fluxpoint.dev for t
 [![MultiRPC Card](https://github-readme-stats.vercel.app/api/pin/?username=FluxpointDev&repo=MultiRPC)](https://github.com/FluxpointDev/MultiRPC)
 [![DNetPlus Card](https://github-readme-stats.vercel.app/api/pin/?username=xXBuilderBXx&repo=DNetPlus)](https://github.com/xXBuilderBXx/DNetPlus)
 [![xXBuilderBXx's github stats](https://github-readme-stats.vercel.app/api?username=xXBuilderBXx&show_icons=true&theme=radical&include_all_commits=true)](https://github.com/xXBuilderBXx?tab=repositories)
+
+[![Widget](https://discordservices.net/bot/434556304661544960/widget.svg?v=2)](https://dbot.page/waifu)
