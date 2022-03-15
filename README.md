@@ -7,7 +7,7 @@ I love watching [anime](https://myanimelist.net/animelist/Builderb), youtube and
 You can visit the Fluxpoint Development website here https://fluxpoint.dev for the latest projects i have made.
 
 ### Social
-<img src="https://cdn.discordapp.com/emojis/684917368694112296.png?v=1" width="14"> Join my Discord community server here https://discord.gg/TjF6QDC
+<img src="https://cdn.discordapp.com/emojis/684917368694112296.png?v=1" width="14"> Join my Discord community server here https://discord.gg/fluxpoint
 
 <img src="https://cdn.discordapp.com/emojis/684927176889729024.png?v=1" width="14"> Or follow me on twitter for the latest news https://twitter.com/FluxpointDev
 
