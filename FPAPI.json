@@ -1,0 +1,382 @@
+{
+	"_type": "export",
+	"__export_format": 4,
+	"__export_date": "2024-02-29T22:11:08.831Z",
+	"__export_source": "insomnia.desktop.app:v2023.5.8",
+	"resources": [
+		{
+			"_id": "req_f4dc390ae0f5417e9e66ea94e16e7c5f",
+			"parentId": "fld_8497517ef2b44c9e96a43de69a98cb06",
+			"modified": 1709243737788,
+			"created": 1709242819054,
+			"url": "https://api.fluxpoint.dev/test/image",
+			"name": "Test Image Generation",
+			"description": "This will show a blue square using image generation!",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [
+				{
+					"id": "pair_4a977cb5efc24fd284e96b93731af7a2",
+					"name": "Authorization",
+					"value": "{{ _.Auth }}",
+					"description": ""
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1709243721735,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_8497517ef2b44c9e96a43de69a98cb06",
+			"parentId": "wrk_aa3673622f0f4e75aea62dd03740ea56",
+			"modified": 1709244325648,
+			"created": 1709243715770,
+			"name": "Test",
+			"description": "",
+			"environment": {},
+			"environmentPropertyOrder": null,
+			"metaSortKey": -1709243716770,
+			"_type": "request_group"
+		},
+		{
+			"_id": "wrk_aa3673622f0f4e75aea62dd03740ea56",
+			"parentId": null,
+			"modified": 1709242812850,
+			"created": 1709242812850,
+			"name": "Fluxpoint API",
+			"description": "",
+			"scope": "collection",
+			"_type": "workspace"
+		},
+		{
+			"_id": "req_5e905ed87484496c9d14a57d3fd9fd6f",
+			"parentId": "fld_8497517ef2b44c9e96a43de69a98cb06",
+			"modified": 1709243732107,
+			"created": 1709243553476,
+			"url": "https://api.fluxpoint.dev/test/error",
+			"name": "Test Error Response",
+			"description": "Make sure to check if the request is a success and optionally include the error message.",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ _.Auth }}",
+					"id": "pair_1898692132f24b01969b132bb9d85210"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1709243721685,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2389408663094432a7fb09dc92c5e7b9",
+			"parentId": "fld_060cf05fadee44d98b5dbb8a766381ad",
+			"modified": 1709243802911,
+			"created": 1709243782281,
+			"url": "https://api.fluxpoint.dev/dadjoke",
+			"name": "Dad Joke",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ _.Auth }}",
+					"id": "pair_6b0ed1a031994b139797a32a77bdc609"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1709243782281,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_060cf05fadee44d98b5dbb8a766381ad",
+			"parentId": "wrk_aa3673622f0f4e75aea62dd03740ea56",
+			"modified": 1709244322630,
+			"created": 1709243746307,
+			"name": "Misc",
+			"description": "",
+			"environment": {},
+			"environmentPropertyOrder": null,
+			"metaSortKey": -1709243716670,
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_f879a8367b2542a1b8f841d07e8fce20",
+			"parentId": "fld_e8994d6e7f9e41dcbe806cc949d16143",
+			"modified": 1709244113009,
+			"created": 1709244070017,
+			"url": "https://api.fluxpoint.dev/mc/skin?player=notch",
+			"name": "Minecraft Player Skin",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ _.Auth }}",
+					"id": "pair_38d33f772efa42c9808eb9b88424123d"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1709244070017,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_e8994d6e7f9e41dcbe806cc949d16143",
+			"parentId": "wrk_aa3673622f0f4e75aea62dd03740ea56",
+			"modified": 1709244320078,
+			"created": 1709244053519,
+			"name": "Minecraft",
+			"description": "",
+			"environment": {},
+			"environmentPropertyOrder": null,
+			"metaSortKey": -1709243716570,
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_3d9021efafa741399a5a78d406144297",
+			"parentId": "fld_e8994d6e7f9e41dcbe806cc949d16143",
+			"modified": 1709244067409,
+			"created": 1709243960204,
+			"url": "https://api.fluxpoint.dev/mc/ping?host=mc.hypixel.net",
+			"name": "Minecraft Server Ping",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [
+				{
+					"id": "pair_ccc531cfd866497087404c69231ac7f1",
+					"name": "",
+					"value": "",
+					"description": ""
+				}
+			],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ _.Auth }}",
+					"id": "pair_5d4830e08dbc4779a25a0e3372852be0"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1709244058957,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "req_60a56e989e5140c78f68cb6e82f409c9",
+			"parentId": "fld_fcb6ae0c90904fa1b9e1a7bcc7870b4b",
+			"modified": 1709244222007,
+			"created": 1709244208923,
+			"url": "https://api.fluxpoint.dev/sfw/gif/hug",
+			"name": "Anime Hug Gif",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ _.Auth }}",
+					"id": "pair_38d33f772efa42c9808eb9b88424123d"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1709244211147,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_fcb6ae0c90904fa1b9e1a7bcc7870b4b",
+			"parentId": "wrk_aa3673622f0f4e75aea62dd03740ea56",
+			"modified": 1709244316089,
+			"created": 1709244129408,
+			"name": "Gallery",
+			"description": "",
+			"environment": {},
+			"environmentPropertyOrder": null,
+			"metaSortKey": -1709243716470,
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_0159e5cbe12e4936a232ffcffb2390ba",
+			"parentId": "fld_fcb6ae0c90904fa1b9e1a7bcc7870b4b",
+			"modified": 1709244356437,
+			"created": 1709244348968,
+			"url": "https://api.fluxpoint.dev/sfw/img/dog",
+			"name": "Dog Image",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ _.Auth }}",
+					"id": "pair_38d33f772efa42c9808eb9b88424123d"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1709244140582,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4abd18bb6cbb43c98b0934d09319e239",
+			"parentId": "fld_5e0ab2d049214164abf17f3342644865",
+			"modified": 1709243928392,
+			"created": 1709243874469,
+			"url": "https://api.fluxpoint.dev/list/fonts",
+			"name": "List Fonts",
+			"description": "Get a list of image gen text fonts to use.",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ _.Auth }}",
+					"id": "pair_5c8e2ef735af4bc093ec08c8061d898c"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1709243874469,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_5e0ab2d049214164abf17f3342644865",
+			"parentId": "wrk_aa3673622f0f4e75aea62dd03740ea56",
+			"modified": 1709244311565,
+			"created": 1709243844045,
+			"name": "Image Gen",
+			"description": "",
+			"environment": {},
+			"environmentPropertyOrder": null,
+			"metaSortKey": -1709243716370,
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_86b919bf8149445b8a72cec503c81e01",
+			"parentId": "fld_5e0ab2d049214164abf17f3342644865",
+			"modified": 1709244622777,
+			"created": 1709244443528,
+			"url": "https://api.fluxpoint.dev/gen/custom",
+			"name": "Generate Image",
+			"description": "Get a list of image gen text fonts to use.",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n    \"Base\": {\n\t    \"type\": \"bitmap\",\n\t    \"width\": 2000,\n\t    \"height\": 2000,\n\t    \"color\": \"#7289da\"\n    },\n    \"Images\": [\n\t{\n\t    \"type\": \"url\",\n\t    \"url\": \"https://img.fluxpoint.dev/139677450752753664.jpg\",\n\t    \"width\": 1000,\n\t    \"height\": 1000\n\t},\n\t{\n\t    \"type\": \"bitmap\",\n\t    \"round\": 160,\n\t    \"x\": 120,\n\t    \"y\": 240,\n\t    \"width\": 1220,\n\t    \"height\": 360,\n\t    \"color\": \"0,0,0,140\"\n\t}\n    ],\n    \"Texts\": [\n        {\n            \"text\": \"Hello\",\n\t\t\t\t\t\"font\": \"Argentum Sans\",\n\t    \"size\": 120,\n\t    \"x\": 600,\n\t    \"y\": 1060\n        }\n    ]\n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"name": "Authorization",
+					"value": "{{ _.Auth }}",
+					"id": "pair_5c8e2ef735af4bc093ec08c8061d898c"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1709243828375,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "env_295825b07c2eda58724c9c96ef02ed5de0679615",
+			"parentId": "wrk_aa3673622f0f4e75aea62dd03740ea56",
+			"modified": 1709243669369,
+			"created": 1709242812865,
+			"name": "Base Environment",
+			"data": {
+				"Auth": ""
+			},
+			"dataPropertyOrder": {
+				"&": [
+					"Auth"
+				]
+			},
+			"color": null,
+			"isPrivate": false,
+			"metaSortKey": 1709242812866,
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_295825b07c2eda58724c9c96ef02ed5de0679615",
+			"parentId": "wrk_aa3673622f0f4e75aea62dd03740ea56",
+			"modified": 1709242812871,
+			"created": 1709242812871,
+			"name": "Default Jar",
+			"cookies": [],
+			"_type": "cookie_jar"
+		}
+	]
+}
