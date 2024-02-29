@@ -322,7 +322,7 @@
 			"url": "https://api.fluxpoint.dev/gen/custom",
 			"name": "Generate Image",
 			"description": "Get a list of image gen text fonts to use.",
-			"method": "GET",
+			"method": "POST",
 			"body": {
 				"mimeType": "application/json",
 				"text": "{\n    \"Base\": {\n\t    \"type\": \"bitmap\",\n\t    \"width\": 2000,\n\t    \"height\": 2000,\n\t    \"color\": \"#7289da\"\n    },\n    \"Images\": [\n\t{\n\t    \"type\": \"url\",\n\t    \"url\": \"https://img.fluxpoint.dev/139677450752753664.jpg\",\n\t    \"width\": 1000,\n\t    \"height\": 1000\n\t},\n\t{\n\t    \"type\": \"bitmap\",\n\t    \"round\": 160,\n\t    \"x\": 120,\n\t    \"y\": 240,\n\t    \"width\": 1220,\n\t    \"height\": 360,\n\t    \"color\": \"0,0,0,140\"\n\t}\n    ],\n    \"Texts\": [\n        {\n            \"text\": \"Hello\",\n\t\t\t\t\t\"font\": \"Argentum Sans\",\n\t    \"size\": 120,\n\t    \"x\": 600,\n\t    \"y\": 1060\n        }\n    ]\n}"
