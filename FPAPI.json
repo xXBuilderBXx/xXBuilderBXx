@@ -321,7 +321,7 @@
 			"created": 1709244443528,
 			"url": "https://api.fluxpoint.dev/gen/custom",
 			"name": "Generate Image",
-			"description": "Get a list of image gen text fonts to use.",
+			"description": "Image gen features can be quite complex, make sure to check out the docs here https://docs.fluxpoint.dev/api/endpoints/image-gen/custom-image",
 			"method": "POST",
 			"body": {
 				"mimeType": "application/json",
