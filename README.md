@@ -20,5 +20,5 @@ Visit the Fluxpoint Development website for projects and information.
 
 <img src="https://img.fluxpoint.dev/517903160036032512.png" width="14"> **Revolt Server**
 > https://rvlt.gg/J5Ras1J3
-
-[![Widget](https://discordservices.net/bot/434556304661544960/widget.svg?v=2)](https://dbot.page/waifu)
+** **
+[![Dashboard](https://img.fluxpoint.dev/615095926477815808.webp)](https://mod.discordservices.net)
